@@ -1,0 +1,1080 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url('img/logo6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* .items{
+    position: relative;
+    left: 30px;
+} */
+
+.side-items{
+    /* margin-left: 115px; */
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contactbtn{
+    background-color: rgb(31, 101, 213);
+    color: white;
+    border: none;
+    width: 96px;
+    height: 35px;
+    /* position: relative;
+    top: 03px; */
+}
+
+.contactbtn:hover{
+    background-color: rgb(81, 129, 206);
+}
+
+.s-items{
+    /* margin-left: 15px; */
+}
+
+.logo{
+    height: 37px;
+    width: 145px;
+    /* position: relative;
+    right: 10px; */
+}
+
+
+.fd{
+    background-color: rgba(15, 15, 15, 0.6);
+    height: 280px;
+    width: 500px;
+    /* position: relative;
+    top: 220px;
+    left: 70px; */
+    /* margin-top: 15rem;
+    margin-left: 7rem; */
+    margin-top: 14.5%;
+    margin-left: 7%;
+}
+
+.fdtxt{
+   /* position: relative;
+   top: 30px;
+   left: 15px; */
+   color: white;
+   margin-left: 1%;
+}
+
+.fdbtn{
+    background-color: rgb(31, 101, 213);
+    /* background-color: rgb(238, 56, 56); */
+    color: white;
+    border: none;
+    /* width: 96px;
+    height: 35px; */
+    height: 13%;
+    width: 20%;
+    margin-top: 1.5%;
+    margin-left: 1%;
+    /* position: relative;
+    top: 40px;
+    left: 15px; */
+}
+
+
+.fdbtn:hover{
+    background-color: rgb(81, 129, 206);
+}
+
+
+.abtus{
+    border: 1px solid white;
+    background-color: white;
+    height: 1470px;
+    margin-top: 27%;
+    /* min-height: 100%; */
+}
+
+
+
+/* .abtus h3{
+    margin-left: 60px;
+    margin-top: 50px;
+} */
+
+.abtus p{
+    margin-left: 18%;
+    margin-top: 1%;
+}
+
+.abtus h3{
+    margin-left: 18%;
+    margin-top: 4.5%;
+
+
+}
+
+/* .abtus h1{
+    font-family:fantasy;
+}  */
+
+
+.products{
+    display: flex;
+    flex-direction: column;
+}
+
+/* @media only screen and (max-height: 600px) {
+    .products {
+      flex-wrap: wrap;
+    }
+  } */
+
+.prdiv1{
+    margin-left: 7%;
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+.prdiv2{
+    display: flex;
+    flex-direction: row;
+    margin-left: 29%;
+    margin-top: 2%;
+    /* flex-wrap: wrap; */
+
+}
+
+
+.pr1{
+    height: 350px;
+    width: 350px;
+    /* position: relative;
+    top: 50px;
+    left: 80px; */
+}
+
+
+.pr2{
+    height: 350px;
+    width: 350px;
+    /* position: relative;
+    top: 50px;
+    left: 100px; */
+}
+
+
+.pr3{
+    height: 350px;
+    width: 350px;
+    /* position: relative;
+    top: 50px;
+    left: 130px; */
+}
+
+.pr4{
+    height: 300px;
+    width: 300px;
+    margin-left: 2%;
+    margin-top: 3%;
+    /* position: relative;
+    top: 100px;
+    left: 130px; */
+}
+
+.pr5{
+    height: 300px;
+    width: 300px;
+    
+    /* position: relative;
+    top: 100px;
+    left: 190px; */
+}
+
+
+.pr6{
+    height: 300px;
+    width: 300px;
+    margin-left: 10%;
+
+    /* position: relative;
+    top: 100px;
+    left: 280px; */
+}
+
+
+.divform{
+    border: 1px solid black;
+    height: 1300px;
+    /* background-color: rgb(31, 101, 213); */
+}
+
+.form{
+    /* border: 1px solid black; */
+    background-color: rgba(50, 49, 49, 0.5);
+    /* border-radius: 30px; */
+    color: white;
+    height: 630px;
+    width: 900px;
+    margin-top: 6%;
+
+    /* position: relative;
+    top: 550px;
+    box-shadow: 200px; */
+}
+
+.formele{
+    padding-top: 65px;
+}
+
+.form input{
+    border: none;
+    width: 450px;
+    height: 33px;
+}
+
+#ques{
+    border: none;
+    width: 450px;
+    height: 80px;
+}
+
+.subbtn{
+    /* position: relative;
+    right: 88px; */
+    background-color: rgb(31, 101, 213);
+    color: white;
+    border: none;
+    width: 96px;
+    height: 35px;
+}
+
+
+.subbtn:hover{
+    background-color: rgb(81, 129, 206);
+}
+
+.footer{
+    background-color: rgb(39, 38, 38);
+    height: 500px;
+    margin-top: -30%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.foot-txt{
+    display: flex;
+    margin-left: 8%;
+    margin-top: 5%;
+}
+
+
+.foot1{
+    color: rgb(71, 141, 255);
+    /* position: relative;
+    top: 60px;
+    left: 100px; */
+}
+
+.foot1-txt-div{
+    margin-top: 10%;
+}
+
+.foot1 div{
+    /* margin-top: 7px; */
+}
+
+.foot2{
+    color: rgb(71, 141, 255);
+    margin-left: 27%;
+    /* position: relative;
+    top: -100px;
+    left: 470px; */
+}
+
+.foot2-txt-div{
+    margin-top: 10%;
+}
+
+.foot2 div{
+    /* margin-top: 7px; */
+}
+
+.foot3{
+    color: rgb(71, 141, 255);
+    margin-left: 25%;
+    display: flex;
+    flex-direction: column;
+    /* position: relative;
+    top: -230px;
+    left: 850px; */
+}
+
+.foot3 div{
+    /* margin-top: 7px; */
+}
+
+
+.footlogo{
+    height: 80px;
+    width: 250px;
+    margin-top: 3%;
+    margin-left: 35%;
+    /* position: absolute;
+    top: 3380px;
+    right: 600px; */
+}
+
+.abtdiv{
+    /* border: 1px solid white; */
+    height: 1700px;
+    width: 1100px;
+    display: flex;
+    flex-direction: column;
+    /* position: relative;
+    top: 140px;
+    left: 85px; */
+    background-color: rgba(50, 49, 49, 0.6);
+    margin-top: 10%;
+    margin-left: 17%;
+    
+
+    
+}
+
+.abttxt1{
+    color: white;
+    display: flex;
+    margin-top: 5%;
+    margin-left: 5%;
+    /* display: flex;
+    flex-direction: ; */
+    /* position: relative;
+    left: 40px;
+    top: 30px; */
+}
+
+.abttxtimg1{
+    height: 500px;
+    width: 400px;
+    /* height: 70%;
+    width: 110%; */
+    /* position: relative;
+    left: 650px;
+    top: -520px; */
+}
+
+
+.abttxt1btn{
+    background-color: rgb(31, 101, 213);
+    color: white;
+    border: none;
+    width: 19%;
+    height: 5.5%;
+    margin-top: 3.5%;
+    /* width: 96px;
+    height: 35px; */
+    /* position: relative;
+    top: 9px; */
+}
+
+
+
+.abttxt1btn:hover{
+    background-color: rgb(81, 129, 206);
+}
+
+
+
+.abttxt2btn{
+    background-color: rgb(31, 101, 213);
+    color: white;
+    border: none;
+    width: 25%;
+    height: 10.5%;
+    margin-top: 3.5%;
+}
+
+.abttxt2btn:hover{
+    background-color: rgb(81, 129, 206);
+}
+
+.abttxt2{
+    color: white;
+    margin-top: 9%;
+    margin-left: 5.3%;
+    display: flex;
+    /* padding: 8; */
+    /* flex-direction: column; */
+    /* position: relative;
+    top: -340px;
+    left: 520px; */
+}
+
+.abttxt2 
+
+
+.abttxtimg2{
+    height: 300px;
+    width: 350px;
+    /* position: relative;
+    left: 60px;
+    top: -655px; */
+}
+
+.abttxt3{
+    color: white;
+    display: flex;
+    margin-top: 12%;
+    margin-left: 5%;
+    /* position: relative;
+    left: 40px;
+    top: -480px; */
+}
+
+.abttxt3btn{
+    background-color: rgb(31, 101, 213);
+    color: white;
+    border: none;
+    width: 96px;
+    height: 35px;
+    margin-top: 3.5%;
+    /* position: relative;
+    top: 9px; */
+}
+
+.abttxt3btn:hover{
+    background-color: rgb(81, 129, 206);
+}
+
+.abttxtimg3{
+    height: 320px;
+    width: 350px;
+    /* position: relative;
+    left: 670px;
+    top: -820px; */
+}
+
+.abtmid{
+    /* border: 1px solid rgb(31, 101, 213); */
+    background-color: rgb(31, 101, 213);
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    /* height: 150%; */
+    /* position: relative;
+    top: 250px; */
+}
+
+.abtmid-txt{
+    display: flex;
+    margin-top: 3%;
+    margin-left: 10%;
+}
+
+.abtmid h1{
+    color: black;
+    /* position: relative;
+    top: 30px; */
+}
+
+.mid1{
+    /* position: relative;
+    left: -420px;
+    top: 80px; */
+}
+
+.mid2{
+    margin-left: 8%;
+    /* position: relative;
+    left: -5px;
+    top: -200px; */
+}
+
+.mid3{
+    margin-left: 8%;
+
+    /* position: relative;
+    top: -472px;
+    left: 420px; */
+}
+
+.footerabt{
+    position: relative;
+    top: 243px;
+}
+
+.footlogoabt{
+    height: 80px;
+    width: 250px;
+    position: absolute;
+    /* top: -100px; */
+    left: 410px;
+    bottom: 100px;
+}
+
+.footer-about{
+    background-color: rgb(39, 38, 38);
+    height: 500px;
+    /* margin-top: -30%; */
+    display: flex;
+    flex-direction: column;
+}
+
+.pr1div{
+    /* border: 1px solid white; */
+    height: 670px;
+    width: 1100px;
+    margin-left: 18%;
+    margin-top: 8%;
+    /* position: relative;
+    top: 140px;
+    left: 85px; */
+    background-color: rgba(50, 49, 49, 0.6)
+}
+
+.pr1txt{
+    color: white;
+    position: relative;
+    left: 80px;
+    top: 150px;
+}
+
+.pr1txt li{
+    margin-top: 10px;
+}
+
+.pr1img{
+    height: 500px;
+    width: 400px;
+    position: relative;
+    left: 620px;
+    top: -200px;
+}
+
+
+.pr1mid{
+    /* border: 1px solid rgb(31, 101, 213); */
+    background-color: rgb(31, 101, 213);
+    height: 700px;
+    margin-top: 3%;
+    /* position: relative;
+    top: 140px; */
+}
+
+.pr1mid1{
+    color: black;
+    position: relative;
+    left: 350px;
+    top: 50px;
+}
+
+.pr1mid1 li{
+    margin-top: 10px;
+}
+
+.pr1mid2{
+    color: black;
+    position: relative;
+    left: 950px;
+    top: -500px;
+}
+
+.pr1mid2 li{
+    margin-top: 10px;
+}
+
+.footer-pr1{
+    background-color: rgb(39, 38, 38);
+    height: 500px;
+    /* margin-top: -30%; */
+    display: flex;
+    flex-direction: column;
+}
+
+.footerpr1{
+    position: relative;
+    top: 132px;
+}
+
+.footlogopr1{
+    height: 80px;
+    width: 250px;
+    position: absolute;
+    left: 410px;
+    bottom: 100px;
+}
+
+
+.divcontform{
+    border: 1px solid black;
+    height: 1300px;
+    margin-top: 8%;
+    /* position: absolute;
+    top: -430px;
+    left: 170px; */
+
+    /* background-color: rgb(31, 101, 213); */
+}
+
+.contform{
+    /* border: 1px solid black; */
+    background-color: rgba(50, 49, 49, 0.5);
+    /* border-radius: 30px; */
+    color: white;
+    height: 630px;
+    width: 900px;
+    /* position: relative;
+    top: 550px;
+    box-shadow: 200px; */
+}
+
+.contformele{
+    padding-top: 65px;
+}
+
+.contform input{
+    border: none;
+    width: 450px;
+    height: 33px;
+}
+
+#contques{
+    border: none;
+    width: 450px;
+    height: 80px;
+}
+
+.contsubbtn{
+    position: relative;
+    right: 88px;
+    background-color: rgb(31, 101, 213);
+    color: white;
+    border: none;
+    width: 96px;
+    height: 35px;
+}
+
+.contsubbtn:hover{
+    background-color: rgb(81, 129, 206);
+}
+
+.footer-contact{
+    background-color: rgb(39, 38, 38);
+    height: 500px;
+    margin-top: -30%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.footercont{
+    position: relative;
+    top: 780px;
+}
+
+.footlogocont{
+    height: 80px;
+    width: 250px;
+    position: absolute;
+    left: 410px;
+    bottom: 100px;
+}
+
+
+
+
+.divsignform{
+    border: 1px solid black;
+    height: 1300px;
+    position: absolute;
+    top: -430px;
+    left: 170px;
+
+    /* background-color: rgb(31, 101, 213); */
+}
+
+.signform{
+    /* border: 1px solid black; */
+    background-color: rgba(50, 49, 49, 0.5);
+    /* border-radius: 30px; */
+    color: white;
+    height: 360px;
+    width: 900px;
+    position: relative;
+    top: 550px;
+    box-shadow: 200px;
+}
+
+.signformele{
+    padding-top: 65px;
+}
+
+.signform input{
+    border: none;
+    width: 450px;
+    height: 33px;
+}
+
+.signsubbtn{
+    position: relative;
+    right: 108px;
+    background-color: rgb(31, 101, 213);
+    color: white;
+    border: none;
+    width: 96px;
+    height: 35px;
+}
+
+.signsubbtn:hover{
+    background-color: rgb(207, 208, 210);
+}
+
+.fp:hover{
+    color: rgb(193, 190, 190);
+}
+
+
+.footersign{
+    position: relative;
+    top: 550px;
+}
+
+.footlogosign{
+    height: 80px;
+    width: 250px;
+    position: absolute;
+    left: 410px;
+    bottom: 100px;
+}
+
+
+.pr2div{
+    /* border: 1px solid white; */
+    height: 450px;
+    width: 1100px;
+    /* position: relative;
+    top: 140px;
+    left: 85px; */
+    margin-top: 8%;
+    margin-left: 18%;
+    background-color: rgba(50, 49, 49, 0.6)
+}
+
+.pr2txt{
+    color: white;
+    position: relative;
+    left: 80px;
+    top: 165px;
+}
+
+.pr2img{
+    height: 300px;
+    width: 430px;
+    position: relative;
+    left: 600px;
+    top: 10px;
+}
+
+
+.pr2mid{
+    /* border: 1px solid rgb(31, 101, 213); */
+    background-color: rgb(31, 101, 213);
+    height: 500px;
+    margin-top: 3%;
+    /* position: relative;
+    top: 140px; */
+}
+
+.pr2mid1{
+    color: black;
+    position: relative;
+    left: 400px;
+    top: 50px;
+}
+
+.pr2mid1 li{
+    margin-top: 10px;
+}
+
+.pr2mid2{
+    color: black;
+    position: relative;
+    left: 900px;
+    top: -300px;
+}
+
+.pr2mid2 li{
+    margin-top: 10px;
+}
+
+.footer-pr2{
+    background-color: rgb(39, 38, 38);
+    height: 500px;
+    /* margin-top: -30%; */
+    display: flex;
+    flex-direction: column;
+}
+
+
+.pr3div{
+    /* border: 1px solid white; */
+    height: 450px;
+    width: 1100px;
+    /* position: relative;
+    top: 140px;
+    left: 85px; */
+    margin-top: 8%;
+    margin-left: 18%;
+    background-color: rgba(50, 49, 49, 0.6)
+}
+
+.pr3txt{
+    color: white;
+    position: relative;
+    left: 80px;
+    top: 165px;
+}
+
+.pr3img{
+    height: 300px;
+    width: 430px;
+    position: relative;
+    left: 600px;
+    top: 10px;
+}
+
+.pr3mid{
+    /* border: 1px solid rgb(31, 101, 213); */
+    background-color: rgb(31, 101, 213);
+    height: 700px;
+    /* position: relative;
+    top: 140px; */
+    display: flex;
+    margin-top: 3%;
+}
+
+.pr3mid1{
+    color: black;
+    /* position: relative;
+    left: 100px;
+    top: 50px; */
+    margin-left: 22%;
+    margin-top: 3%;
+}
+
+.pr3mid1 li{
+    margin-top: 10px;
+}
+
+.pr3mid2{
+    color: black;
+    /* position: relative;
+    left: 700px;
+    top: -508px; */
+    margin-left: 10%;
+    margin-top: 3%;
+
+
+}
+
+.pr3mid2 li{
+    margin-top: 10px;
+}
+
+.footer-pr3{
+    background-color: rgb(39, 38, 38);
+    height: 500px;
+    /* margin-top: -30%; */
+    display: flex;
+    flex-direction: column;
+}
+
+.pr4div{
+    /* border: 1px solid white; */
+    height: 550px;
+    width: 1100px;
+    position: relative;
+    top: 140px;
+    left: 85px;
+    background-color: rgba(50, 49, 49, 0.6)
+}
+
+.pr4txt{
+    color: white;
+    position: relative;
+    left: 80px;
+    top: 150px;
+}
+
+.pr4txt li{
+    margin-top: 10px;
+}
+
+.pr4img{
+    height: 350px;
+    width: 370px;
+    position: relative;
+    left: 635px;
+    top: -140px;
+}
+
+
+.pr5div{
+    /* border: 1px solid white; */
+    height: 670px;
+    width: 1100px;
+    position: relative;
+    top: 140px;
+    left: 85px;
+    background-color: rgba(50, 49, 49, 0.6)
+}
+
+.pr5txt{
+    color: white;
+    position: relative;
+    left: 80px;
+    top: 150px;
+}
+
+.pr5txt li{
+    margin-top: 10px;
+}
+
+.pr5img{
+    height: 500px;
+    width: 400px;
+    position: relative;
+    left: 620px;
+    top: -336px;
+}
+
+
+.pr5mid{
+    /* border: 1px solid rgb(31, 101, 213); */
+    background-color: rgb(31, 101, 213);
+    height: 700px;
+    position: relative;
+    top: 140px;
+}
+
+.pr5mid1{
+    color: black;
+    position: relative;
+    left: 100px;
+    top: 50px;
+}
+
+.pr5mid1 li{
+    margin-top: 10px;
+}
+
+.pr5mid2{
+    color: black;
+    position: relative;
+    left: 700px;
+    top: -369px;
+}
+
+.pr5mid2 li{
+    margin-top: 10px;
+}
+
+
+.pr6div{
+    /* border: 1px solid white; */
+    height: 550px;
+    width: 1100px;
+    position: relative;
+    top: 140px;
+    left: 85px;
+    background-color: rgba(50, 49, 49, 0.6)
+}
+
+.pr6txt{
+    color: white;
+    position: relative;
+    left: 80px;
+    top: 150px;
+}
+
+.pr6txt li{
+    margin-top: 10px;
+}
+
+.pr6img{
+    height: 350px;
+    width: 370px;
+    position: relative;
+    left: 675px;
+    top: -190px;
+}
+
+
+
+.privdiv{
+    /* border: 1px solid white; */
+    height: 3160px;
+    width: 1100px;
+    position: relative;
+    top: 140px;
+    left: 85px;
+    background-color: rgba(50, 49, 49, 0.6)
+}
+
+.privtxt{
+    color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    position: relative;
+    top: 30px;
+}
+
+
+.refdiv{
+    /* border: 1px solid white; */
+    height: 680px;
+    width: 1100px;
+    position: relative;
+    top: 140px;
+    left: 85px;
+    background-color: rgba(50, 49, 49, 0.6)
+}
+
+.reftxt{
+    color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    position: relative;
+    top: 30px;
+}
+
+
+
+.termsdiv{
+    /* border: 1px solid white; */
+    height: 1150px;
+    width: 1100px;
+    position: relative;
+    top: 140px;
+    left: 85px;
+    background-color: rgba(50, 49, 49, 0.6)
+}
+
+.termstxt{
+    color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    position: relative;
+    top: 30px;
+}
+
